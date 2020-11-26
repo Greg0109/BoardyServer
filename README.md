@@ -7,10 +7,14 @@ Boardy is a tool that allows you to seamlessly sync your clipboard with your PC.
 - Copy an image from the iPhone to the PC (the other way around is not supported yet). 
 
 It features a custom made server that must be installed on the PC for the tweak to work properly.
-You need to download the server that is made for your OS (see the folders on this github), and also you need to download the ServerConfig.json file, which **needs** to be placed on the same folder as the server executable.
+You need to download the server that is made for your OS (see the folders on this github), and also you need to download the ServerConfig.json file, which **NEEDS** to be placed on the same folder as the server executable.
 
 
 ## Before you launch the server
+Please make sure you have the ServerConfig.json file **on the same folder as the executable**
+
+Edit the ServerConfig file with your iOS device's info (user and password for SSH, the default ones are root and alpine (you should change the password if its alpine))
+
 If you are interested in copying images from the device to your PC, on linux and macOS you will need to install a tool called xclip (from macOS that tool can be installed using brew)
 On windows there's no need for extra tools like that.
 
@@ -18,8 +22,7 @@ On windows there's no need for extra tools like that.
 If you are using macOS, you need to give permissions to the server before launching. 
 You have to do so using the following command on terminal:
 ```chmod -R 755 Path/To/The/BoardyServer.app```
-
-Edit the ServerConfig file with your iOS device's info (user and password for SSH, the default ones are root and alpine (you should change the password if its alpine))
+Change Path/To/The/BoardyServer.app to the path where the boardy server is located on your mac
 
 ## If you want the server to autostart when you boot your PC.
 ### Windows
