@@ -46,3 +46,6 @@ Following the instructions of: https://www.idownloadblog.com/2015/03/24/apps-lau
 3. Click Login Items. At the bottom left corner of the window, click on the lock icon and enter your admin password.
 4. Click the ‘+‘ sign and find the Application that you wish to auto-start via the Finder interface. You probably want to open the /Applications folder to do so. You can select multiple items by holding down the ⌘ key while selecting each item.
 5. Once your desired items are selected, click the Add button.
+
+## Warning:
+ Keep in mind that some public wifis (just like coffee shops, universities and so on) usually have their ports blocked. This tweak might not work on such wifis.
