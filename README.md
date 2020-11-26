@@ -9,6 +9,7 @@ Boardy is a tool that allows you to seamlessly sync your clipboard with your PC.
 It features a custom made server that must be installed on the PC for the tweak to work properly.
 You need to download the server that is made for your OS (see the folders on this github), and also you need to download the ServerConfig.json file, which **NEEDS** to be placed on the same folder as the server executable.
 
+The iOS tweak can be found in [Chariz](https://chariz.com/buy/boardy)
 
 ## Before you launch the server
 Please make sure you have the ServerConfig.json file **on the same folder as the executable**
