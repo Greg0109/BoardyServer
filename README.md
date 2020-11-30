@@ -25,6 +25,10 @@ You have to do so using the following command on terminal:
 ```chmod -R 755 Path/To/The/BoardyServer.app```
 Change Path/To/The/BoardyServer.app to the path where the boardy server is located on your mac
 
+### Warning:
+ Keep in mind that some public wifis (just like coffee shops, universities and so on) usually have their ports blocked. This tweak might not work on such wifis.
+ The server runs with **no UI and in the background**. This means that when you launch the server you will get no visual feedback. Try to copy something and see what happens. If you still prefer some visual feedback, you can open the activity manager of your computer to see if the server is running. Look for BoardyServer.
+
 ## If you want the server to autostart when you boot your PC.
 ### Windows
 1. Press windows key + r
@@ -46,6 +50,3 @@ Following the instructions of: https://www.idownloadblog.com/2015/03/24/apps-lau
 3. Click Login Items. At the bottom left corner of the window, click on the lock icon and enter your admin password.
 4. Click the ‘+‘ sign and find the Application that you wish to auto-start via the Finder interface. You probably want to open the /Applications folder to do so. You can select multiple items by holding down the ⌘ key while selecting each item.
 5. Once your desired items are selected, click the Add button.
-
-## Warning:
- Keep in mind that some public wifis (just like coffee shops, universities and so on) usually have their ports blocked. This tweak might not work on such wifis.
