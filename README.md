@@ -54,3 +54,21 @@ Following the instructions of: https://www.idownloadblog.com/2015/03/24/apps-lau
 3. Click Login Items. At the bottom left corner of the window, click on the lock icon and enter your admin password.
 4. Click the ‘+‘ sign and find the Application that you wish to auto-start via the Finder interface. You probably want to open the /Applications folder to do so. You can select multiple items by holding down the ⌘ key while selecting each item.
 5. Once your desired items are selected, click the Add button.
+
+## Where can I find my ip/hostname?
+
+### iOS
+Follow the instructions in this [link](https://www.businessinsider.com/how-to-find-ip-address-on-ipad)
+
+### Windows
+How to find:
+[-ip](https://support.microsoft.com/en-us/windows/find-your-ip-address-f21a9bbc-c582-55cd-35e0-73431160a1b9)
+[-Hostname](https://kb.iu.edu/d/avza#:~:text=From%20the%20Start%20menu%2C%20select,the%20machine%20without%20the%20domain.)
+
+### macOS
+How to find:
+[-ip](https://www.hellotech.com/guide/for/how-to-find-ip-address-on-mac)
+[-Hostname](https://support.apple.com/guide/mac-help/find-your-computers-name-and-network-address-mchlp1177/mac#:~:text=Find%20your%20computer's%20local%20hostname&text=Bonjour%2Dcompatible%20services.-,On%20your%20Mac%2C%20choose%20Apple%20menu,System%20Preferences%2C%20then%20click%20Sharing.&text=Your%20computer's%20local%20hostname%20is,the%20top%20of%20Sharing%20preferences.)
+
+### Linux:
+If you're using linux, you should know how to set it up anyway
