@@ -29,6 +29,8 @@ Change Path/To/The/BoardyServer.app to the path where the boardy server is locat
 Keep in mind that copying images only works from the iOS device -> PC at the moment. This might change in a future update.
 Also, the images cannot just be pasted to a folder, they must be pasted somewhere where an image can go, this means a image editor, a messaging app or a office document.
 
+In order to share images on macOS, you must install the tool xclip (using [brew](https://brew.sh/)) along the tool [XQuartz](https://www.xquartz.org/)
+
 ### Warning:
  Keep in mind that some public wifis (just like coffee shops, universities and so on) usually have their ports blocked. This tweak might not work on such wifis.
  The server runs with **no UI and in the background**. This means that when you launch the server you will get no visual feedback. Try to copy something and see what happens. If you still prefer some visual feedback, you can open the activity manager of your computer to see if the server is running. Look for BoardyServer.
