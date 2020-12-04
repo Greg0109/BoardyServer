@@ -40,14 +40,14 @@ Following the instructions of: https://www.idownloadblog.com/2015/03/24/apps-lau
 
 # Frequently Asked Questions:
 
-### It sends the text to my PC but not my iPhone
+### It sends the text to my PC but not my iPhone, Why is that?
 Please make sure the configuration of your iPhone is entered in the ServerConfig.json properly **BEFORE YOU LAUNCH IT**
 
 The server uses the default SSH port (22). At the moment it cannot be changed. I will add an option for it. If you have changed your SSH port or you cannot seem the be able to get the server to send info to your iPhone, it could be that. You can see the file at /etc/ssh/sshd_config on your iPhone to see what SSH port does your iPhone use. If its any other than 22, please change it back.
 
 While adding an option to set the SSH port is very easy, I do not have access to my Mac and Windows machine right now (I'm away from home atm) and I cannot compile the appropiate servers, I would only be able to compile the Linux server (since it's my main device). I will add this option as soon as possible. Thanks 
 
-### I launch the app on macOS and nothing happens
+### I launch the app on macOS and nothing happens, Did I miss something?
 If you are using macOS, you might need to give permissions to the server before launching. 
 You have to do so using the following command on terminal:
 ```chmod -R 755 Path/To/The/BoardyServer.app```
@@ -62,7 +62,7 @@ Windows and macOS do not require any additional software.
 ### A popup appeared that says the clipboard was accessed/asked me to allow to connect to nearby devices, What is that?
 In iOS 14 and newer verions of macOS, there were introduced some privacy features that could be triggered by Boardy. This features include warning about the clipboard being accessed and a warning about connecting to nearby devices. You must select allow for Boardy to work properly. Keep in mind that some apps could use same technology, so it might also not be Boardy.
 
-### The server gets flagged as a Trojan/Virus, Is it safe? Windows Firewall/Antivirus. 
+### The server gets flagged as a Trojan/Virus, Is it safe? The server was deleted and I had to download it again. Windows Firewall/Antivirus. 
 Since Boardy enables some form of local networking, and it hasn't been signed by any certificate (I will do it as soon as possible), it might be flagged as a virus or trojan and as such, deleted from your system without a warning (this is a security measure provided by the OS/Antivirus). In order to avoid this you must whitelist the server.
 
 The server is completely safe, the data never leaves your local network and it is not stored anywhere. 
