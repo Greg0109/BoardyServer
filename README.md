@@ -19,6 +19,11 @@ Edit the ServerConfig file with your iOS device's info (user and password for SS
 If you are interested in copying images from the device to your PC, on linux and macOS you will need to install a tool called xclip (from macOS that tool can be installed using brew)
 On windows there's no need for extra tools like that.
 
+### Important: SSH Port
+The server uses the default SSH port (22). At the moment it cannot be changed. I will add an option for it. If you have changed your SSH port or you cannot seem the be able to get the server to send info to your iPhone, it could be that. You can see the file at /etc/ssh/sshd_config on your iPhone to see what SSH port does your iPhone use. If its any other than 22, please change it back.
+
+While adding an option to set the SSH port is very easy, I do not have access to my Mac and Windows machine right now (I'm away from home atm) and I cannot compile the appropiate servers, I would only be able to compile the Linux server (since it's my main device). I will add this option as soon as possible. Thanks 
+
 ### IF YOU ARE USING macOS
 If you are using macOS, you need to give permissions to the server before launching. 
 You have to do so using the following command on terminal:
