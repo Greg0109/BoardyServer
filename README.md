@@ -41,7 +41,9 @@ Following the instructions of: https://www.idownloadblog.com/2015/03/24/apps-lau
 # Frequently Asked Questions:
 
 ### It sends the text to my PC but not my iPhone, Why is that?
-Please make sure the configuration of your iPhone is entered in the ServerConfig.json properly **BEFORE YOU LAUNCH IT**
+Please make sure the configuration of your iPhone is entered in the ServerConfig.json properly **BEFORE YOU LAUNCH IT** If you are sure you entered the correct configuration and it still doesn't work, please, try to ssh to your iPhone using those settings. If you manage to ssh to your iPhone with those settings, send me an email asking for support. If you don't manage to ssh to your iPhone with those settings, either the settings are wrong or you have a different port other than the defaul (22).
+
+If you don't know how to SSH to your iPhone from your PC, please google it, there are several tutorials on how to do it with any OS out there
 
 The server uses the default SSH port (22). At the moment it cannot be changed. I will add an option for it. If you have changed your SSH port or you cannot seem the be able to get the server to send info to your iPhone, it could be that. You can see the file at /etc/ssh/sshd_config on your iPhone to see what SSH port does your iPhone use. If its any other than 22, please change it back.
 
