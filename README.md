@@ -13,6 +13,7 @@ The iOS tweak can be found in [Chariz](https://chariz.com/buy/boardy)
 
 # Before you launch the server
 *THE SERVER HAS NO UI OR GIVES ANY VISUAL FEEDBACK AT THIS MOMENT*
+
 Please make sure you have the ServerConfig.json file **on the same folder as the executable**. If you don't know how to download the .json file, you can download the entire github repo on a zip file using this [link](https://github.com/Greg0109/BoardyServer/archive/master.zip)
 
 Edit the ServerConfig file with your iOS device's info (user and password for SSH, the default ones are root and alpine (you should change the password if its alpine))
