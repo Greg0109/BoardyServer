@@ -19,6 +19,8 @@ Please make sure you have the ServerConfig.json file **on the same folder as the
 
 Edit the ServerConfig file with your iOS device's info (user and password for SSH, the default ones are root and alpine (you should change the password if its alpine))
 
+#### Please, make sure you read the FAQ if you are having any issues
+
 ## If you want the server to autostart when you boot your PC.
 ### Windows
 1. Press windows key + r
@@ -66,6 +68,10 @@ Windows and macOS do not require any additional software.
 
 ### A popup appeared that says the clipboard was accessed/asked me to allow to connect to nearby devices, What is that?
 In iOS 14 and newer verions of macOS, there were introduced some privacy features that could be triggered by Boardy. This features include warning about the clipboard being accessed and a warning about connecting to nearby devices. You must select allow for Boardy to work properly. Keep in mind that some apps could use same technology, so it might also not be Boardy.
+
+### I can receive on the iPhone but I cannot receive on the PC (Windows Users)
+Make sure the server is whitelisted BOTH on the antivirus and the windows firewall, specially the later.
+Windows firewall can sometimes flag incoming/outgoing payloads as malware and block it, which will result in the server not working.
 
 ### The server gets flagged as a Trojan/Virus, Is it safe? The server was deleted and I had to download it again. Windows Firewall/Antivirus. 
 Since Boardy enables some form of local networking, and it hasn't been signed by any certificate (I will do it as soon as possible), it might be flagged as a virus or trojan and as such, deleted from your system without a warning (this is a security measure provided by the OS/Antivirus). In order to avoid this you must whitelist the server.
