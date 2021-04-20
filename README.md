@@ -32,6 +32,7 @@ Edit the ServerConfig file with your iOS device's info (user and password for SS
 
 ### Linux
 You can either use a cronjob to start the executable or use the StartUp applications that come with the distro (this may change depending on the distro you use).
+You must install a tool called 'xclip' in order for the server to work properly. Unfortunately I cannot bundle this tool with the server
 
 ### macOS
 
