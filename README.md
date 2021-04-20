@@ -19,7 +19,7 @@ Please make sure you have the ServerConfig.json file **on the same folder as the
 
 Edit the ServerConfig file with your iOS device's info (user and password for SSH, the default ones are root and alpine (you should change the password if its alpine))
 
-#### Please, make sure you read the FAQ if you are having any issues
+#### Please, make sure you read the [FAQ](https://github.com/Greg0109/BoardyServer/blob/master/README.md#frequently-asked-questions) if you are having any issues
 
 ## If you want the server to autostart when you boot your PC.
 ### Windows
