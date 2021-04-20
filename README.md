@@ -54,6 +54,10 @@ The server uses the default SSH port (22). At the moment it cannot be changed. I
 
 While adding an option to set the SSH port is very easy, I do not have access to my Mac and Windows machine right now (I'm away from home atm) and I cannot compile the appropiate servers, I would only be able to compile the Linux server (since it's my main device). I will add this option as soon as possible. Thanks 
 
+### I can receive on the iPhone but I cannot receive on the PC (Windows Users)
+Make sure the server is whitelisted BOTH on the antivirus and the windows firewall, specially the later.
+Windows firewall can sometimes flag incoming/outgoing payloads as malware and block it, which will result in the server not working.
+
 ### I launch the app on macOS and nothing happens, Did I miss something?
 If you are using macOS, you might need to give permissions to the server before launching. 
 You have to do so using the following command on terminal:
@@ -68,10 +72,6 @@ Windows and macOS do not require any additional software.
 
 ### A popup appeared that says the clipboard was accessed/asked me to allow to connect to nearby devices, What is that?
 In iOS 14 and newer verions of macOS, there were introduced some privacy features that could be triggered by Boardy. This features include warning about the clipboard being accessed and a warning about connecting to nearby devices. You must select allow for Boardy to work properly. Keep in mind that some apps could use same technology, so it might also not be Boardy.
-
-### I can receive on the iPhone but I cannot receive on the PC (Windows Users)
-Make sure the server is whitelisted BOTH on the antivirus and the windows firewall, specially the later.
-Windows firewall can sometimes flag incoming/outgoing payloads as malware and block it, which will result in the server not working.
 
 ### The server gets flagged as a Trojan/Virus, Is it safe? The server was deleted and I had to download it again. Windows Firewall/Antivirus. 
 Since Boardy enables some form of local networking, and it hasn't been signed by any certificate (I will do it as soon as possible), it might be flagged as a virus or trojan and as such, deleted from your system without a warning (this is a security measure provided by the OS/Antivirus). In order to avoid this you must whitelist the server.
