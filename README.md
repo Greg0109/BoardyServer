@@ -1,4 +1,5 @@
 # Boardy
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V8dQfhzj4Tc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Sync the clipboard and notifications with your PC!
 
 Long gone are the days where using a discord bot was the only way to send data from the phone to the pc easily or using email, introducing Boardy:
@@ -161,19 +162,23 @@ It's better if you put a .local at the end of the hostname in the server and twe
 ### iOS
 Follow the instructions in this [link](https://www.businessinsider.com/how-to-find-ip-address-on-ipad)
 
+<br>
+
 ### Windows
-How to find:
   
-[-ip](https://support.microsoft.com/en-us/windows/find-your-ip-address-f21a9bbc-c582-55cd-35e0-73431160a1b9)
+[IP](https://support.microsoft.com/en-us/windows/find-your-ip-address-f21a9bbc-c582-55cd-35e0-73431160a1b9)
   
-[-Hostname](https://kb.iu.edu/d/avza#:~:text=From%20the%20Start%20menu%2C%20select,the%20machine%20without%20the%20domain.)
+[HOSTNAME](https://kb.iu.edu/d/avza#:~:text=From%20the%20Start%20menu%2C%20select,the%20machine%20without%20the%20domain.)
+
+<br>
 
 ### macOS
-How to find:
   
-[-ip](https://www.hellotech.com/guide/for/how-to-find-ip-address-on-mac)
+[IP](https://www.hellotech.com/guide/for/how-to-find-ip-address-on-mac)
   
-[-Hostname](https://support.apple.com/guide/mac-help/find-your-computers-name-and-network-address-mchlp1177/mac#:~:text=Find%20your%20computer's%20local%20hostname&text=Bonjour%2Dcompatible%20services.-,On%20your%20Mac%2C%20choose%20Apple%20menu,System%20Preferences%2C%20then%20click%20Sharing.&text=Your%20computer's%20local%20hostname%20is,the%20top%20of%20Sharing%20preferences.)
+[Hostname](https://support.apple.com/guide/mac-help/find-your-computers-name-and-network-address-mchlp1177/mac#:~:text=Find%20your%20computer's%20local%20hostname&text=Bonjour%2Dcompatible%20services.-,On%20your%20Mac%2C%20choose%20Apple%20menu,System%20Preferences%2C%20then%20click%20Sharing.&text=Your%20computer's%20local%20hostname%20is,the%20top%20of%20Sharing%20preferences.)
+
+<br>
 
 ### Linux:
 If you're using linux, you should know how to set it up anyway
