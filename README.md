@@ -88,7 +88,16 @@ If you don't know how to SSH to your iPhone from your PC, please google it, ther
 
 The server uses the default SSH port (22). At the moment it cannot be changed. I will add an option for it. If you have changed your SSH port or you cannot seem the be able to get the server to send info to your iPhone, it could be that. You can see the file at /etc/ssh/sshd_config on your iPhone to see what SSH port does your iPhone use. If its any other than 22, please change it back.
 
-While adding an option to set the SSH port is very easy, I do not have access to my Mac and Windows machine right now (I'm away from home atm) and I cannot compile the appropiate servers, I would only be able to compile the Linux server (since it's my main device). I will add this option as soon as possible. Thanks 
+While adding an option to set the SSH port is very easy, I do not have access to my Mac and Windows machine right now (I'm away from home atm) and I cannot compile the appropiate servers, I would only be able to compile the Linux server (since it's my main device). I will add this option as soon as possible. Thanks
+
+<br>
+<br>
+
+## It sends the text to my iPhone but not PC.
+
+Please check your firewall and antivirus settings and make sure that the server is whitelisted in both. 
+If you are still not getting anything, it could be because the port is already being used by another service you might have installed. The server uses the port 5000, so please check and make sure that this port is not being used.
+Ports will be able to be changed for both ssh and the server in a future update. 
 
 <br>
 <br>
