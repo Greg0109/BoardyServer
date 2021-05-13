@@ -29,7 +29,7 @@ Edit the ServerConfig file with your iOS device's info (user and password for SS
 ## Windows
 ### AutoStart on Boot
 1. Press windows key + r
-2. Copy the run command Shell:common startup
+2. Copy the run command ```Shell:common startup```
 3. It will reach C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
 4. Creat the shortcut of the program you want to run in startup.
 5. Drag and drop.
