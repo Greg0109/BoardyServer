@@ -12,27 +12,54 @@ You need to download the server that is made for your OS (see the folders on thi
 
 The iOS tweak can be found in [Chariz](https://chariz.com/buy/boardy)
 
+<br>
+<br>
+<br>
+
 # Before you launch the server
 Please make sure you have the ServerConfig.json file **on the same folder as the executable**. If you don't know how to download the .json file, you can download the entire github repo on a zip file using this [link](https://github.com/Greg0109/BoardyServer/archive/master.zip)
 
 Edit the ServerConfig file with your iOS device's info (user and password for SSH, the default ones are root and alpine (you should change the password if its alpine))
 
-## If you want the server to autostart when you boot your PC.
-### Windows
+<br>
+<br>
+<br>
+
+# OS Specific Instructions
+## Windows
+### AutoStart on Boot
 1. Press windows key + r
 2. Copy the run command Shell:common startup
 3. It will reach C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
 4. Creat the shortcut of the program you want to run in startup.
 5. Drag and drop.
-6. Restart the computer. 
+6. Restart the computer.
 
-## Linux
+### IMPORTANT FOR WINDOWS USERS
+Due to how the server is made, it can be marked as a virus or trojan. This is normal, its just how the windows antivirus and firewall work. For the server and tweak to work as they are intended, you must whitelist the server BOTH in the firewall and antivirus, otherwise the server might not function properly.
+If you have any 3rd party antivirus, you might have to whitelist it there as well.
+
+<br>
+
+## Linux 
+### AutoStart on Boot
 You can either use a cronjob to start the executable or use the StartUp applications that come with the distro (this may change depending on the distro you use).
+
+<br>
+
+### Forward Notifications and Image copying
 To forward the notiications you will need to have installed notify-send 
 
 ```sudo apt-get install libnotify-bin```
 
+You will also need a tool called 'xclip' to copy images.
+
+```sudo apt-get install xclip```
+
+<br>
+
 ## macOS
+### AutoStart on Boot
 
 Following the instructions of: https://www.idownloadblog.com/2015/03/24/apps-launch-system-startup-mac/
 
@@ -41,9 +68,15 @@ Following the instructions of: https://www.idownloadblog.com/2015/03/24/apps-lau
 3. Click Login Items. At the bottom left corner of the window, click on the lock icon and enter your admin password.
 4. Click the ‘+‘ sign and find the Application that you wish to auto-start via the Finder interface. You probably want to open the /Applications folder to do so. You can select multiple items by holding down the ⌘ key while selecting each item.
 5. Once your desired items are selected, click the Add button.
-6. To forward the notiications you will need to have installed 'terminal-notifier'. To do that you need to have [brew installed](https://brew.sh/). 
+
+### Forward Notifications
+To forward the notiications you will need to have installed 'terminal-notifier'. To do that you need to have [brew installed](https://brew.sh/). 
 
 ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"; brew install terminal-notifier```
+
+<br>
+<br>
+<br>
 
 # Frequently Asked Questions:
 
@@ -57,6 +90,16 @@ The server uses the default SSH port (22). At the moment it cannot be changed. I
 
 While adding an option to set the SSH port is very easy, I do not have access to my Mac and Windows machine right now (I'm away from home atm) and I cannot compile the appropiate servers, I would only be able to compile the Linux server (since it's my main device). I will add this option as soon as possible. Thanks 
 
+<br>
+<br>
+
+## I am not getting notifications
+If you are using macOS or Linux, there are specific packages you need to install before being able to get notifications. Please check on the instructions above that you installed everything.
+
+If you did everything and you still not get notifications (or are in windows and not getting notifications) please check that the server is running and that everything is set up properly. Also make sure your computer is not in DND mode.
+
+<br>
+<br>
 
 ## I launch the app on macOS and nothing happens, Did I miss something?
 
@@ -66,6 +109,8 @@ You have to do so using the following command on terminal:
 
 Change Path/To/The/BoardyServer.app to the path where the boardy server is located on your mac
 
+<br>
+<br>
 
 ## How do I copy images?
 
@@ -73,11 +118,15 @@ The images cannot just be pasted to a folder (I might add this as a feature in t
 In order to share images on Linux, you must install the tool xclip.
 Windows and macOS do not require any additional software.
 
+<br>
+<br>
 
 ## A popup appeared that says the clipboard was accessed/asked me to allow to connect to nearby devices, What is that?
 
 In iOS 14 and newer verions of macOS, there were introduced some privacy features that could be triggered by Boardy. This features include warning about the clipboard being accessed and a warning about connecting to nearby devices. You must select allow for Boardy to work properly. Keep in mind that some apps could use same technology, so it might also not be Boardy.
 
+<br>
+<br>
 
 ## The server gets flagged as a Trojan/Virus, Is it safe? The server was deleted and I had to download it again. Windows Firewall/Antivirus. 
 
@@ -85,11 +134,16 @@ Since Boardy enables some form of local networking, and it hasn't been signed by
 
 The server is completely safe, the data never leaves your local network and it is not stored anywhere. 
 
+<br>
+<br>
 
-## WARNING:
+## Public WiFIs (Universities, Work Place, coffee shops...):
 
  Keep in mind that some public wifis (just like coffee shops, universities and so on) usually have their ports blocked. This tweak might not work on such wifis.
  The server runs with **no UI and in the background**. This means that when you launch the server you will get no visual feedback. Try to copy something and see what happens. If you still prefer some visual feedback, you can open the activity manager of your computer to see if the server is running. Look for BoardyServer.
+
+<br>
+<br>
 
 ## Where can I find my ip/hostname?
 
