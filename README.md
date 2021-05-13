@@ -1,6 +1,4 @@
 # Boardy
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V8dQfhzj4Tc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Sync the clipboard and notifications with your PC!
 
 Long gone are the days where using a discord bot was the only way to send data from the phone to the pc easily or using email, introducing Boardy:
