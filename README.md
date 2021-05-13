@@ -47,7 +47,7 @@ You can either use a cronjob to start the executable or use the StartUp applicat
 
 
 ### Forward Notifications and Image copying
-To forward the notiications you will need to have installed notify-send 
+To forward the notications you will need to have installed notify-send 
 
 ```sudo apt-get install libnotify-bin```
 
