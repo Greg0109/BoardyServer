@@ -45,7 +45,6 @@ If you have any 3rd party antivirus, you might have to whitelist it there as wel
 ### AutoStart on Boot
 You can either use a cronjob to start the executable or use the StartUp applications that come with the distro (this may change depending on the distro you use).
 
-<br>
 
 ### Forward Notifications and Image copying
 To forward the notiications you will need to have installed notify-send 
