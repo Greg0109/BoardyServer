@@ -1,4 +1,6 @@
 # Boardy
+*If interested in the purchase of the code, read down below*
+
 Sync the clipboard with your PC!
 
 Long gone are the days where using a discord bot was the only way to send data from the phone to the pc easily or using email, introducing Boardy:
@@ -105,3 +107,16 @@ How to find:
 
 #### Linux:
 If you're using linux, you should know how to set it up anyway
+
+
+#### Purchase of the code
+
+I've been approached several times about the purchase of the code, from several people and companies. 
+My policy towards that is the following:
+- I will not provide any national ID for the contract. I can provide details but I WILL NOT send a copy of my id. Period.
+- Payments should be done via PayPal, I will not provide any banking details or accept crypto. 
+- Pricing will be discussed between the two parties. Once I establish said payment amount it will be FINAL. No negotiating or anything.
+- If the adquiring party fails to reply to messages for over a period of two weeks, agreement will be cancelled and a new price must be set. 
+
+This policy has been designed to protect me, since I've been approached by a lot of people trying to trick me into just giving away the code. 
+If you cannot follow this conditions, please refrain from reaching out
