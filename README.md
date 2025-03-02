@@ -109,7 +109,7 @@ How to find:
 If you're using linux, you should know how to set it up anyway
 
 
-# Code Purchase Policy
+# Code Purchase Policy / Adquire code policy
 
 I have previously been targeted by scam attempts regarding this code. As a result, this policy exists to protect myself and ensure a secure transaction. If you do not agree to these terms, do not contact me regarding the purchase.
 
