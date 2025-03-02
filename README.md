@@ -116,26 +116,39 @@ I have previously been targeted by scam attempts regarding this code. As a resul
 The code, including both the iOS application and server-side components, is no longer in active development. Therefore, I will not accommodate any requests for updates, modifications, or free access to the code. This is a product—treat it as such.
 
 1. Identification & Contract
+   
 	•	I will not provide a copy of my national ID, passport, or any other sensitive personal documentation.
+
 	•	Basic details can be shared if necessary, but under no circumstances will I send a scanned, photocopied, or digital copy of my ID.
 
-2. Payment Terms
+3. Payment Terms
+   
 	•	All payments must be made via PayPal only.
+
 	•	I will not accept bank transfers, cryptocurrency, or any other payment methods.
+
 	•	Once a price is established, it is final—no negotiations, discounts, or changes will be entertained.
 
-3. Communication & Agreement Validity
+5. Communication & Agreement Validity
+   
 	•	If the acquiring party fails to respond for 14 consecutive days, the agreement will be automatically canceled.
+
 	•	If the agreement is canceled due to lack of response, a new price will have to be set before resuming discussions.
 
-4. Code Transfer & Rights
+7. Code Transfer & Rights
+   
 	•	The code (including both the iOS application and server-side components) will only be transferred after full payment has been received and confirmed.
+
 	•	No partial payments, deposits, or “test access” will be granted before full payment is made.
+
 	•	I retain the right to refuse a sale at any time if I suspect fraudulent behavior.
 
-5. Fraud Prevention
+9. Fraud Prevention
+    
 	•	Due to past scam attempts, I strictly enforce these terms to protect myself and my work.
+
 	•	Any attempt to deceive, manipulate, or coerce me into providing the code without meeting these terms will result in immediate termination of the discussion.
+
 	•	If you do not agree with any of these terms, do not contact me regarding the purchase.
 
 This policy is non-negotiable and ensures a fair and secure transaction for both parties.
