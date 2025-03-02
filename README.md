@@ -1,5 +1,5 @@
 # Boardy
-*If interested in the purchase of the code, read down below*
+### *If interested in the purchase of the code, read down below*
 
 Sync the clipboard with your PC!
 
