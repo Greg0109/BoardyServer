@@ -111,9 +111,9 @@ If you're using linux, you should know how to set it up anyway
 
 # Code Purchase Policy
 
-The code, including both the iOS application and server-side components, is no longer in active development. Therefore, I will not accommodate any requests for updates, modifications, or free access to the code. This is a product—treat it as such.
-
 I have previously been targeted by scam attempts regarding this code. As a result, this policy exists to protect myself and ensure a secure transaction. If you do not agree to these terms, do not contact me regarding the purchase.
+
+The code, including both the iOS application and server-side components, is no longer in active development. Therefore, I will not accommodate any requests for updates, modifications, or free access to the code. This is a product—treat it as such.
 
 1. Identification & Contract
 	•	I will not provide a copy of my national ID, passport, or any other sensitive personal documentation.
